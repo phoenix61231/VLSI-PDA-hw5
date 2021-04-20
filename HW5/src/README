@@ -1,0 +1,20 @@
+--How to Compile
+	In this directory, enter the following command:
+	$ make
+	It will generate the executable file "hw5" in "HW5/bin"
+
+	If you want to remove it, please enter the following command:
+	$ make clean
+
+--How to Run
+	In this directory, enter the following command:
+	Usage: ../bin/<exe> <nets file> <result file>
+	e.g.:
+	$ ../bin/hw5 *.modified.txt *.result
+	
+	notice:	* means any file name
+
+	In "HW5/bin/", enter the following command:
+	Usage: ./<exe> <nets file> <result file>
+	e.g.:
+	$ ./hw5 *.modified.txt *.result
